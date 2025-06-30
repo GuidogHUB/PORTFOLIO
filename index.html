@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guido Garnero | Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="./js/script.js"></script>
+</head>
+<body>
+  <main>
+    <div class="layout">
+      <div class="columna col-1">
+          <!-- Hero / Presentación -->
+  <header class="hero">
+      <h1 class="hero-h">Guido Garnero</h1>
+      <p class="lead hero-p">Desarrollo aplicaciones de escritorio y páginas web simples y accesibles para los usuarios.</p>
+      <ul class="list-accesos">
+        <a href="#AcercaDe" class="list-link">
+          <li class="list-item"> Acerca De</li>
+        </a><a href="#Proyectos" class="list-link">
+          <li class="list-item">Ver Proyectos</li>
+        </a><a href="#Habilidades" class="list-link">
+          <li class="list-item">Tecnologías</li>
+        </a>
+        </a><a href="#Contacto" class="list-link">
+          <li class="list-item">Contacto</li>
+        </a>
+      </ul>
+  </header>
+    <!-- Habilidades -->
+  <section id="Habilidades" class="py-5 habilidades-seccion">
+      <h2 class="habilidades-h">Lenguajes y Tecnologías</h2>
+      <div class="hab-contenedor">
+      <div class="habilidad-box">
+          <img src="./multimedia/html.png" alt="" class="box-img">
+            <h5 class="box-h">HTML</h5>
+            <p>Nivel Básico</p>
+        </div>
+        <div class="habilidad-box">
+          <img src="./multimedia/css.png" alt="" class="box-img">
+          <h5 class="box-h">CSS</h5>
+          <p>Nivel Básico</p>
+        </div>
+        <div class="habilidad-box">
+          <img src="./multimedia/c++.png" alt="" class="box-img">
+            <h5 class="box-h">C++</h5>
+            <p>Nivel Básico</p>
+        </div>
+        <div class="habilidad-box">
+        <img src="./multimedia/sql.png" alt="" class="box-img">
+        <h5 class="box-h">SQL</h5>
+        <p>Nivel Básico</p>
+        </div>
+      </div>
+  </section>
+      </div>
+      <div class="columna col-2">
+        <section id="AcercaDe" class="seccion-acerca">
+    <div class="box-acerca">
+      <h2 class="acerca-h">Acerca de Mí</h2>
+      <p class="acerca-p">Me apasiona el desarrollo de páginas web con interfaces amigables, que luzcan bien pero también que agreguen funcionalidades y que tengan utlidades para los usuarios. Realicé el curso "Desarrollo Web Flex" de CoderHouse durante Febrero-Mayo de 2025 donde aprendí a diseñar páginas web responsive con HTML y CSS, enfocado más en el desarrollo Front-End.<br>
+        También, tengo un título de nivel terciario como Desarrollador De Software, donde pude aprender a desarrollar aplicaciones de escritorio utilizando lenguajes como C++ y SQL, también aprendiendo a utililizar un sistema gestor de bases de datos como Access.<br>
+        Pese a no tener nignua experiencia profesional previa como Desarrollador, me siento preparado para comenzar a construir mi perfil profesional.<br>
+        En mis tiempos libres, me gusta seguir aprendiendo y mejorando por mi cuenta mis conocimientos. Por ejemplo, actualmente estoy familiarizándome con otros lenguajes para implementarlos en mis proyectos actuales y futuros.<br>
+      </p>
+    </div>
+  </section>
+    <!-- Proyectos -->
+  <section id="Proyectos" class="proyectos-seccion">
+    <div class="contenedor-proyectos">
+      <h2 class="proyectos-h"> Mis Proyectos</h2>
+        <!-- Proyecto 1 -->
+        <div class="proyecto">
+          <div class="card h-100 carta-proyecto">
+            <div class="card-body">
+              <h4 class="card-h">Sistema de gestión para la peluquería Look Natural</h4>
+              <span>2023-2025</span>
+              <p class="card-p">Este proyecto fue realizado como tesis final basado en lenguaje .NET con sentencias SQL donde se almacenan datos en un sistema gestor de bases de datos como Access.</p>
+              <div class="lenguajes-box">
+                <button class="card-btn">
+                <a href="https://github.com/GuidogHUB/repo-LookNatural" target="_blank" class="btn-link">Ver Proyecto</a>
+              </button>
+                <span class="card-span">C++</span>
+                <span class="card-span">SQL</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 (duplicar estructura si sumás más) -->
+        <div class="proyecto">
+          <div class="card h-100 carta-proyecto">
+            <div class="card-body">
+              <h4 class="card-h">Página web para concesionaria de autos</h4>
+              <span>Febrero 2025-junio 2025</span>
+              <p class="card-p">Proyecto final desarrollado en HTML y CSS para una concesionaria de vehículos ficticia.</p>
+              <div class="lenguajes-box">
+                <button class="card-btn"><a href="https://github.com/GuidogHUB/Proyecto-HTML-CSS-CoderHouse2025" target="_blank" class="btn-link">Ver Proyecto</a></button>
+                <span class="card-span">HTML</span>
+                <span class="card-span">CSS</span>
+                <span class="card-span">SCSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+      </div>
+    </div>
+  </main>
+  <!-- Contacto / Redes -->
+  <footer id="Contacto" class="footer">
+    <div>
+      <h2 class="footer-h">Contacto</h2>
+      <div class="contacto-box">
+        <div class="contacto-card"> 
+        <a href="https://github.com/GuidogHUB" class="contacto-link" target="_blank">
+          <img src="./multimedia/Github_logo.png" alt="LOGO GITHUB" class="contacto-img">
+        </a>
+        <h5>GITHUB</h5>
+        </div>
+        <div class="contacto-card">
+          <a href="#" class="contacto-link" target="_blank" onclick="mostrarmensaje(event)">
+            <img src="./multimedia/linkedin-logo.png" alt="LOGO LINKEDIN" class="contacto-img">
+          </a>
+          <h5>LINKEDIN</h5>
+        </div>
+        <div class="contacto-card">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=guidogarnero15@gmail.com&su=Consulta%20desde%20la%20web&body=Hola,%20quiero%20hacer%20una%20consulta..." class="contacto-link" target="_blank">
+            <img src="./multimedia/gmail.png" alt="LOGO GMAIL" class="contacto-img">
+          </a>
+          <h5>GMAIL</h5>
+        </div>
+        <div class="contacto-card">
+          <a href="./multimedia/GUIDO GARNERO.pdf" class="contacto-link" target="_blank">
+            <img src="./multimedia/document.png" alt="LOGO DOCUMENTO" class="contacto-img">
+          </a>
+          <h5>CV</h5>
+        </div>
+      </div>
+      <p class="small mt-3">© 2025 Guido Garnero - Todos los derechos reservados</p>
+    </div>
+  </footer>
+</body>
+</html>
